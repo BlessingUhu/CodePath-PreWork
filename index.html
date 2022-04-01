@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>CodePath</title>
+
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <link rel="stylesheet" href="/style.css" />
+
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="title">Light and Sound Memory Game</h1>
+
+    <p>
+      HEllO! Welcome to the Light and Sound Memory Game. To get started, repeat
+      the pattern on the screen
+      <strong>by pressing the colored buttons.</strong>
+    </p>
+  </body>
+
+  <!--Timer starts here -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=2.0" />
+
+    <title>My Clock</title>
+
+    <link rel="stylesheet" href="clock2.css" />
+    <!-- connect to css -->
+  </head>
+  <body>
+    <div id="tickTock">9:01:00</div>
+
+    <script src="clock2.js"></script>
+
+    <!-- background music -->
+    <audio controls autoplay>
+      <source
+        src="https://cdn.glitch.global/f41035d6-f43d-4e72-b11d-38408120f5f9/melodyloops-preview-joe-the-jazzy-man-2m30s.mp3?v=1648796707993"
+        loop="false"
+        hidden="true"
+        autostart="true"
+      />
+    </audio>
+
+    <!-- My start game's button -->
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <!-- My End game's button -->
+    <button id="stopBtn" class="hidden" onclick="stopGame()">End</button>
+
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startTone(5)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button6"
+        onclick="guess(6)"
+        onmousedown="startTone(6)"
+        onmouseup="stopTone()"
+      ></button>
+    </div>
+  </body>
+</html>
