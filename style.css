@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+body {
+  background-color: dodgerblue;
+  color: black;
+  background-image: radial-gradient(circle, blue 0%, beige 20%, brown 100%);
+  background-attachment: scroll;
+}
+h1 {
+  font-family: arial, verdana, sans-serif;
+}
+
+.title {
+  color: black;
+  font-family: cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 105%;
+  margin: 0;
+  text-shadow: 2px 6px grey;
+}
+
+audio {
+  margin: 20px;
+}
+
+#tickTock {
+  font-size: 20px;
+  width: 130px;
+  margin: 10px;
+  text-align: left;
+  border: 3px solid blue;
+  border-radius: 35px;
+  background: grey;
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  background: brown;
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+  padding: 13px;
+  border-radius: 11px;
+  color: white;
+}
+#gameButtonArea > button {
+  width: 300px;
+  height: 200px;
+  margin: 2px;
+}
+.hidden {
+  display: none;
+}
+#button1 {
+  background: lightgreen;
+}
+#button2 {
+  background: lightblue;
+}
+#button3 {
+  background: pink;
+}
+#button4 {
+  background: lightyellow;
+}
+#button5 {
+  background: orchid;
+}
+#button6 {
+  background: thistle;
+}
+
+#button1.lit {
+  background: green;
+}
+#button2.lit {
+  background: blue;
+}
+#button3.lit {
+  background: red;
+}
+#button4.lit {
+  background: yellow;
+}
+#button5.lit {
+  background: deeppink;
+}
+#button6.lit {
+  background: darkmagenta;
+}
